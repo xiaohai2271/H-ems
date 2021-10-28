@@ -17,3 +17,10 @@ Springboot + Spring Data Jpa + Mysql + Thymeleaf + LayUI
 传输: password 用Email做密钥进行AES对称加密
 
 数据库存储: MD5( Email + 解密后的密码 + 全局应用盐 )
+
+
+## 运行
+
+```bash
+.\mvnw spring-boot:run
+```
