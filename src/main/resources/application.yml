@@ -1,0 +1,25 @@
+spring:
+  sql:
+    init:
+      schema-locations: classpath*:sql/schema.sql
+      data-locations: classpath*:sql/data.sql
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/j2ee
+    username: root
+    password: zhenghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    servlet:
+      content-type: text/html
+    cache: false
