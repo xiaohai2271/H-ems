@@ -11,7 +11,7 @@
 Springboot + Spring Data Jpa + Mysql + Thymeleaf + LayUI
 
 
-## 密码加密
+### 密码加密
 > AES / ECB / PKCS5Padding
 
 传输: password 用Email做密钥进行AES对称加密
@@ -24,3 +24,13 @@ Springboot + Spring Data Jpa + Mysql + Thymeleaf + LayUI
 ```bash
 .\mvnw spring-boot:run
 ```
+
+
+## 文件链接
+数据库文件
+
+[建表DDL](src/main/resources/sql/schema.sql) 
+
+[sql测试数据](src/main/resources/sql/data.sql)   
+
+[前端文件`static` / `template`](src/main/resources)
